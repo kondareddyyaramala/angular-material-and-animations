@@ -1,0 +1,11 @@
+.example-container {
+  margin-top: 20px;
+  margin-left: 25%;
+  display: flex;
+  content: ceil($number: 3);
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 50%;
+}

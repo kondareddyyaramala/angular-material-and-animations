@@ -1,0 +1,5 @@
+.app-component {
+  /deep/ .mat-tab-label-active {
+    background-color: red;
+  }
+}
