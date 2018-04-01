@@ -39,11 +39,13 @@ import {
 
 import { AppComponent } from './app.component';
 import { CustomerComponent } from './customer/customer.component';
+import { SalesComponent } from './sales/sales.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomerComponent
+    CustomerComponent,
+    SalesComponent
   ],
   imports: [
     BrowserModule,
